@@ -60,7 +60,12 @@
           }
         }
 
-- Build solution        
+- Build solution
+- Execute commands:
+
+      Add-Migration "Init Database"
+      Update-Database
+
 - Add Scaffolded controller with views for Products
 
 ![controller](https://raw.githubusercontent.com/PXL-CSWeb/DependencyInjection-Template/media/controller.png)
