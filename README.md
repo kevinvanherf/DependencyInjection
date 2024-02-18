@@ -1,7 +1,11 @@
 # Dependency Injection
 ## Template
 
-- Clone repository
+- Create fork from this repository
+
+![fork](https://raw.githubusercontent.com/PXL-CSWeb/DependencyInjection-Template/media/newfork.png)
+
+- Clone personal repository
 - Copy path
 - Create new project:
 
@@ -73,4 +77,8 @@
 
 ## Demo
 - Add ProductRepository
+    - Refactor ProductsController to use ProductRepository 
 - Add CounterService
+    - Use CounterService with different scopes
+        - AddSingleton
+        - AddScoped
